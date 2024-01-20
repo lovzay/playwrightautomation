@@ -1,0 +1,12 @@
+#running playwright test
+npx playwright test
+npx playwright test --headed
+npx playwright show-report
+npx playwright test mytest.spec.js
+npx playwright test --project=chromium
+
+await page.locator('locator').click();
+await page.click('locator');
+property
+css
+xpath
